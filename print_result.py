@@ -5,3 +5,4 @@ def print_classified_picture(image_path, predicted_label):
     image.show()
     print(f"Predicted label: {predicted_label}")
     print("------------------------------------------------------")
+
