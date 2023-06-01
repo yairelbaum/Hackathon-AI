@@ -35,4 +35,3 @@ def classify_image(image_path):
     predicted_label = class_labels[predicted_idx.item()]
 
     return predicted_label
-

@@ -7,6 +7,7 @@ def main():
     image_path = 'elephant.png'
     # destination_directory = '/path/to/destination'
     # import_images(source_directory, destination_directory)
+    
 
     predicted_class = classify_image(image_path)
     print(predicted_class)
