@@ -2,6 +2,7 @@ import torch
 from torchvision import models, transforms
 from PIL import Image
 
+
 # Function to classify an image
 def classify_image(image_path):
     # Load the pre-trained model
