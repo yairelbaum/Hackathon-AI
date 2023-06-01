@@ -1,6 +1,10 @@
 from PIL import Image, ImageDraw, ImageFont
 
+
 def title_to_image(image_path, title, output_path):
+    """
+    Function to add a title to an image and save new one
+    """
     # Open the image
     image = Image.open(image_path)
 
