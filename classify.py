@@ -28,10 +28,4 @@ def classify_image(image_path):
         outputs = model(image)
         _, predicted_idx = torch.max(outputs, 1)
 
-    # Map the predicted index to the corresponding class label
-    class_labels = ['elephant', 'penguin', 'dog', 'horse']
-    print(predicted_idx)
-    print(predicted_idx.item())
-    predicted_label = class_labels[predicted_idx.item()]
-
-    return predicted_label
+    return predicted_idx.item()
